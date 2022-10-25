@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    box-sizing: border-box;
+    background-color: rgb(44, 51, 56);
+}
+
+.div_title_h2{
+    text-align: center;
+    margin-bottom: 5px;
+    margin-top: 14px;
+    color: whitesmoke;
+    font-family: 'Arial', sans-serif;
+}
+
+.div_text_h3{
+    text-align: center;
+    margin-top: 35px;
+    font-size: 11px;
+}
+
+form{
+    background-color: rgb(32, 33, 36);
+    width: 250px;
+    height: 44%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    padding: 40px;
+    border-radius: 6px;
+}
+
+.div_user input{
+    width: 155px;
+    height: 10px;
+    border:0px solid;
+    padding: 15px 35px 15px 50px;
+    background-color: #3b3c3f;
+    margin-left: 5px;
+    border-radius: 3px;
+    font-family: 'Arial', sans-serif;
+    box-shadow: 0 0 0 0;
+    outline: 0;
+    color: white;
+    margin-top: 35px;
+}
+
+.div_user input:hover{
+    color: #fff;
+    background-color: rgb(61, 67, 73);
+}
+
+.div_password input{
+    width: 155px;
+    height: 10px;
+    border:0px solid;
+    padding: 15px 35px 15px 50px;
+    background-color: #3b3c3f;
+    margin-left: 5px;
+    color: #757575;
+    border-radius: 3px;
+    font-family: 'Arial', sans-serif;
+    box-shadow: 0 0 0 0;
+    outline: 0;
+    color: white;
+}
+
+.div_password input:hover{
+    color: #fff;
+    background-color: rgb(61, 67, 73);
+}
+
+.div_submit input{
+    width: 80px;
+    height: 38px;
+    border:0px solid;
+    background-color:rgb(46, 51, 179);
+    cursor: pointer;
+    margin-left: 5px;
+    color: rgb(214, 205, 205);
+    border-radius: 3px;
+    float: right;
+    margin-right: 5px;
+    margin-top: 15px;
+    float: right;
+    
+}
+
+.div_submit input:hover{
+    background-color: rgb(51, 57, 236);
+}
+
+.div_reset input{
+    width: 80px;
+    height: 38px;
+    border:0px solid;
+    background-color:rgb(226, 39, 55);
+    cursor: pointer;
+    margin-left: 5px;
+    color: rgb(214, 205, 205);
+    border-radius: 3px;
+    float: right;
+    margin-right: 5px;
+    margin-top: 15px;
+    float: right;
+}
+
+.div_reset input:hover{
+    background-color: rgb(243, 65, 80);
+}
+
+.lb_user{
+    position: absolute;
+    top: 121px;
+    right: 240px;
+    font-size: 18px;
+    background-color: rgb(42, 46, 51);
+    min-height: 26px;
+    min-width: 30px;
+    padding: 8px;
+    text-align: center;
+    border-radius: 3px;
+    color:rgb(79, 87, 96);
+}
+
+.lb_password{
+    position: absolute;
+    top: 179px;
+    right: 240px;
+    font-size: 17px;
+    background-color: rgb(42, 46, 51);
+    min-height: 26px;
+    min-width: 30px;
+    padding: 8px;
+    text-align: center;
+    border-radius: 3px;
+    color:rgb(79, 87, 96);
+}
+
+
+
