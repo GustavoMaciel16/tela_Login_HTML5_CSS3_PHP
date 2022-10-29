@@ -25,7 +25,8 @@ body{
 form{
     background-color: rgb(32, 33, 36);
     width: 250px;
-    height: 44%;
+    height: 50%;
+    max-height: 50%;
     position: absolute;
     left: 50%;
     top: 50%;
@@ -129,7 +130,7 @@ form{
 
 .lb_password{
     position: absolute;
-    top: 179px;
+    top: 180px;
     right: 240px;
     font-size: 17px;
     background-color: rgb(42, 46, 51);
