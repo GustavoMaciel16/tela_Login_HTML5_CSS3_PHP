@@ -20,7 +20,7 @@ if(isset($_GET["loggout"])) {
     <meta name="description" content="Esse é um projeto de uma tela de login, que coleta os dados inseridos pelo usuário e os manda, através do método POST, para um arquivo de extensão PHP. Depois, o arquivo PHP exibe as informações para usuário na tela se o login for aprovado.">
     <meta name="keywords" content="Login form, php, css3, html5, js, web developtment">
     <meta name="author" content="Gustavo Maciel Resende">
-    <link rel="sortcut icon" href="img/slogan2.png">
+    <link rel="sortcut icon" href="img/slogan_2.png">
     <title>Fórum | Bem-Vindo</title>
     </head>
 <body>
